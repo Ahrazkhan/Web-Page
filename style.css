@@ -1,0 +1,173 @@
+.topnav {
+    top:0;
+    position: fixed;
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px 100px;
+    width:100%;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #e8dfdf;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #a00606;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+     
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    bottom: 0;
+    width:100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.video{
+    width:400px;
+    height:315px;
+}
+
+h1{
+    color: #a00606;
+    text-align: center;
+}
+body {
+    font-family:sans-serif;
+    background-color: #e8dfdf;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img{
+    width:200px;
+}
+.img2{
+    width:400px;
+}
+.resourcediv{
+    padding:50px;
+    width:600px;
+    
+}
+.contactdiv{
+    padding:50px;
+    width:600px;
+    
+}
+.aboutdiv{
+    padding:50px;
+    width:600px;
+    
+}
+.formdiv{
+    padding:50px;
+    width:600px;
+    
+}
+
+a.button {
+    -webkit-appearance: button;
+    text-decoration: none;
+    background-color: #9e251c;
+    width: 198.7px;
+    height: 48px;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+.column2{
+    float: left;
+    width: 50%;
+    
+}
+.resourceimg{
+    width:1000px;
+    height: 500px;
+
+}
+a{
+    color: #a00606;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/0b/82/d6/0b82d687a07140b713c449b9f1f44fa7.jpg");
+}
+table{
+    margin: 0px auto;
+}
+td{
+    padding-top: 20px;
+    padding-left: 80px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=Email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #a00606;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contactform{
+    height: 400px;
+}
+.aboutus{
+    height: 480px;
+}
+
+input[type=submit]:hover {
+    background-color: #73b2b7;
+}
